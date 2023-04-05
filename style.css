@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat&family=Mukta&family=Poppins&family=Roboto+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 15px 15px;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+     
+}
+
+
+body {
+    background: url(https://images.pexels.com/photos/1673973/pexels-photo-1673973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat, repeat;
+    background-size: auto;
+    background-color: rgb(34, 33, 33);
+    overflow: hidden;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #5CE500;
+    text-shadow: 3px 2px 1px rgba(0,0,0, .3);
+    margin-left: 25px;
+    user-select: none;
+
+}
+
+.logo {
+    color: #5CE500;
+    text-shadow: 3px 2px 1px rgba(0,0,0, .3);
+    user-select: none;
+}
+
+
+.quote {
+    width: 400px;
+    margin: 150px auto;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    border: .1px solid rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+}
+
+.quote p{
+    font-size: 30px;
+    text-shadow: 3px 2px 1px rgba(0,0,0, .3);
+    font-family: 'Italianno', cursive;
+    color: black;
+    user-select: none;
+}
+.about {
+    font-size: 30px;
+    text-shadow: 3px 2px 1px rgba(0,0,0, .3);
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    user-select: none;
+}
+
+
+
